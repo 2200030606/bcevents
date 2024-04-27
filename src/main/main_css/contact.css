@@ -1,0 +1,43 @@
+.card1 {
+  box-shadow: 0 8px 8px 0 rgba(245, 241, 241, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+
+  width: 400px; /* Specify the width */
+  height: 320px; /* Specify the height */
+  /* Add a 1px solid border with a light gray color */
+  padding: 10px; /* Add some padding to the card content */
+}
+.card1-container {
+  display: flex;
+  justify-content: space-between; /* Distribute items evenly along the main axis */
+  flex-wrap: wrap; /* Allow items to wrap onto the next line if needed */
+  margin-top: 280px;
+}
+
+.photos-container {
+  display: flex;
+}
+.photos-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-photo {
+  width: 18.33%; /* To evenly distribute the photos */
+  height: 260px;
+  margin: 10px; /* Adjust margin as needed */
+}
+
+.contact-photo
+{
+  border: 0px solid white;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}

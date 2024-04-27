@@ -1,0 +1,118 @@
+form {
+    width: 430px;
+    height: 490px;
+    margin-top:7%;
+    margin-right:400px;
+    padding-top: 50px;
+    text-align: center;
+    float:right;
+    border-width:5px;
+    border: rgb(162, 155, 155);
+    border-style:groove;
+    
+    
+  }
+  input[type="submit"],input[type="reset"] {
+    background: white;
+    color: black;
+    font-size:15px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100px;
+  }
+  
+     .email-input {
+    border:none;
+    border-bottom: 3px solid rgb(80, 76, 76);
+    background: none;
+    outline: none;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 30px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    border-color: white;
+    transition: border-bottom 0.3s ease,  /* Adding transition for smooth hover effect */
+    
+    
+     }
+     .email-input:focus {
+      color: white;
+      
+    }
+  
+  h3
+  {
+  font-size: 40px; /* Set your desired font size */
+  margin-left:10px; 
+  margin-top:3px;
+  
+  }
+  
+  
+  
+  p
+  {
+  margin-top:20px;
+  font-size: 15px ;
+  color: white;
+  margin-right: 70px;
+  display: inline;
+  
+  }
+  input:focus::placeholder {
+          transform: translateY(-10px);
+          font-size: 12px;
+          color: white;
+          z-index: -1;
+      }
+  
+      ::placeholder {
+          transition: 0.3s;
+          font-size: 16px;
+          color: #555;
+          color: white;
+      }
+  
+      .link-style {
+        text-decoration: none;
+        color: white;
+        margin-left: 5px; /* Adjusted for better alignment */
+        /* Other styles remain unchanged */
+      }
+      
+  
+      .signup-container {
+        display: flex; /* This will align the children inline */
+        align-items: center; /* This will vertically align the children in the middle */
+        justify-content: center; /* This will horizontally align the children in the center */
+        color: white; /* Keep the text color white as per your design */
+      }
+  
+.sideimg1{
+  
+  padding-left: 332px;
+  height: 519px;
+  padding-top: 94.5px;
+  image: 'fixed';
+}
+
+.button2 {
+  background-color: rgba(0,0,0,0);
+  color: black;
+  border: 2px solid #000; /* Green */
+}
+
+.button2 {
+  transition-duration: 0.4s;
+}
+
+.button2:hover {
+  background-color: rgb(18, 18, 18); /* Green */
+  color: white;
+}

@@ -1,0 +1,70 @@
+.event-card {
+    display: inline-block; /* Ensures the card takes only as much space as the image */
+    border: 5px solid white; /* Sets white border around the image */
+    
+  }
+  
+  .event-image-name {
+    width: 600px;
+    height: 320px;
+
+  }
+
+
+  .imgimg{
+    padding-top: 130px;
+    padding-left: 80px;
+  }
+  
+ .bn{
+    padding-top: 50px;
+    padding-left: 760px;
+ }
+
+ .event-details-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.event-details {
+    flex: 1;
+}
+
+.event-card {
+    margin-left: 20px; /* Adjust this value as needed */
+}
+
+.event-details-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative; /* Ensure positioning context for absolute positioning */
+}
+
+.event-details {
+    flex: 1;
+}
+
+.event-card {
+    margin-left: 20px; /* Adjust this value as needed */
+}
+
+.event-image-name {
+    width: 520px;
+    height: 320px;
+}
+
+.booknow {
+    background: linear-gradient(45deg, #ffbe30, #ff3e00), #2406e6;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: absolute;
+    bottom: 220px;
+    left: 50%;
+    transform: translateX(-50%);
+}

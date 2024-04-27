@@ -1,0 +1,62 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to bottom right, #666666, #ffffff, #666666); /* Multicolored gradient background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    max-width: 400px; /* Set maximum width */
+    width: 100%; /* Ensure the card takes the full width of its container */
+    margin: 0 auto; /* Horizontally center the card */
+  }
+  
+.profile:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Darker box shadow on hover */
+}
+
+.avatar {
+  margin-bottom: 20px; /* Add some space between avatar and body */
+}
+
+.avatar-wrapper {
+  position: relative;
+  text-align: center; /* Center the contents of the wrapper */
+}
+
+.avatar-img {
+  width: 150px; /* Adjust avatar size */
+  height: 150px;
+  border: 2px solid #ddd;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.remove-image-btn {
+  margin-top: 10px; /* Add some space between image and button */
+  padding: 5px 10px; /* Increase padding for better button appearance */
+  background-color: #ddd;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #333;
+}
+
+.remove-image-btn:hover {
+  background-color: #bbb; /* Darken button on hover */
+}
+
+.body {
+    text-align: center; /* Center the text in the body */
+    border-bottom: 1px solid #ddd; /* Add line at the bottom */
+    padding-bottom: 20px; /* Add space below the line */
+  }
+  
+  .body p {
+    margin: 20px 0; /* Add some space between paragraphs */
+    color: #333; /* Dark text color */
+  }
+  

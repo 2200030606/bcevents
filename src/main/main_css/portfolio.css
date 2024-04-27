@@ -1,0 +1,112 @@
+.Card3 {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+.portfolio-image-container {
+    text-align: center;
+}
+
+.portfolio-image-container img {
+    border: 2px solid white;
+    margin-left: 20px;
+    height: 430px;
+    width: 290px;
+    object-fit: cover;.Card3 {
+        display: flex;
+        justify-content: space-around;
+        padding: 100px;
+    }
+    
+    .portfolio-image-container {
+        text-align: center;
+    }
+    
+    .portfolio-image-container img {
+        border: 2px solid white;
+        margin-left: 20px;
+        height: 590px;
+        width: 400px;
+        object-fit: cover;
+    }
+    
+    .portfolio-image-container img:hover {
+        transform: scale(1.05);
+    }
+    
+    .portfolio-image-container p {
+        font-size: 25px;
+        margin-bottom: 20px;
+        font-family: 'moontime', 'cursive';
+        color: rgb(255, 217, 0);
+    }
+    
+    .portfolio-image-container button {
+        text-align: center;
+        border-radius: 8px;
+        border: none;
+        padding: 9px 12px;
+        color: whitesmoke;
+        background-color: purple;
+        font-weight: 800;
+        cursor: pointer;
+        outline: none;
+        background-repeat: no-repeat;
+        background-position: -120px -120px, 0 0;
+        background: linear-gradient(45deg, #ffbe30, #ff3e00);
+        background-size: 250% 250%, 100% 100%;
+        font-size: 16px;
+    }
+    
+    .portfolio-image-container button:hover {
+        border-color: #f5f7f5;
+        box-shadow: 0 0 10px #e9eae9;
+    }
+    
+    .portfolio-image-container button:hover {
+        background: linear-gradient(35deg, #ff3e00, #ffbe30);
+        background-position: 0 0;
+        transition: 0.5s;
+    }
+    
+}
+
+.portfolio-image-container img:hover {
+    transform: scale(1.05);
+}
+
+.portfolio-image-container p {
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-family: 'moontime', 'cursive';
+    color: rgb(255, 217, 0);
+}
+
+.portfolio-image-container button {
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    padding: 9px 12px;
+    color: whitesmoke;
+    background-color: purple;
+    font-weight: 800;
+    cursor: pointer;
+    outline: none;
+    background-repeat: no-repeat;
+    background-position: -120px -120px, 0 0;
+    background: linear-gradient(45deg, #ffbe30, #ff3e00);
+    background-size: 250% 250%, 100% 100%;
+    font-size: 16px;
+}
+
+.portfolio-image-container button:hover {
+    border-color: #f5f7f5;
+    box-shadow: 0 0 10px #e9eae9;
+}
+
+.portfolio-image-container button:hover {
+    background: linear-gradient(35deg, #ff3e00, #ffbe30);
+    background-position: 0 0;
+    transition: 0.5s;
+}

@@ -1,0 +1,49 @@
+/* clientprofile.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .profile-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .profile-details {
+    font-size: 18px;
+  }
+  
+  .profile-details h2 {
+    margin-bottom: 10px;
+  }
+  
+  .profile-details table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .profile-details table th,
+  .profile-details table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .profile-details table th {
+    background-color: #f2f2f2;
+  }
+  
+  .profile-details table td {
+    text-align: center;
+  }
+  
+  

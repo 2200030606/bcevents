@@ -1,0 +1,5 @@
+.album-image {
+    width: 100%; /* Set width to 100% to ensure images fill their containers */
+    height: 100%; /* Set height to 100% to ensure images fill their containers */
+    object-fit: cover; /* Maintain aspect ratio while covering the container */
+  }
