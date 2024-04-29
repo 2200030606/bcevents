@@ -1,4 +1,4 @@
 const config={
-    url:"http://localhost:1011"
+    url:"https://backend-s11p.onrender.com"
 };
 export default config;
