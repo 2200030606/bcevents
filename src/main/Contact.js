@@ -13,8 +13,7 @@ import { Link } from 'react-router-dom';
 export default function Contact() {
 
   return (
-    <div>
-      
+    <div>      
       <div>
     <div>
     <h3 align="center" style={{ color: "white" , fontFamily:"cursive"}}><strong>OUR STORY</strong></h3>
