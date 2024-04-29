@@ -17,8 +17,8 @@ export default function MainRouting({ onClientLogin, onAdminLogin, onManagerLogi
       <Routes>
         <Route path="/" element={<MainNavBar />} exact />
         <Route path="/home" element={<MainNavBar />} exact />
-        <Route path="https://bcevents19.netlify.app/login" element={<Login onClientLogin={onClientLogin} />} exact />
-        <Route path="https://bcevents19.netlify.app/signup" element={<Signup />} exact />
+        <Route path="/login" element={<Login onClientLogin={onClientLogin} />} exact />
+        <Route path="/signup" element={<Signup />} exact />
         <Route path="/adminlogin" element={<AdminLogin onAdminLogin={onAdminLogin} />} exact />
         <Route path="/emlogin" element={<EventManagerLogin onManagerLogin={onManagerLogin} />} exact />
         <Route path="/emsignup" element={<EventManagaerSignup />} />
