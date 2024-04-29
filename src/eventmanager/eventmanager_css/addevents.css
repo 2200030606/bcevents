@@ -1,41 +1,76 @@
+/* Add these styles to your existing CSS file */
+
+.button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* Additional styles for your form and elements */
+
 .event-form {
   display: flex;
   flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto; /* Center the form horizontally */
+  padding: 20px; /* Add padding to the form */
+  box-sizing: border-box; /* Include padding and border in the total width */
 }
 
 .form-group {
-  margin-bottom: 20px;
+  margin-bottom: -1px;
 }
 
 label {
   font-weight: bold;
+  color: white;
 }
 
 .form-control {
-  width: 100%;
-  padding-right: 90px;
+  width: calc(100% - 20px); /* Adjusted width to accommodate padding */
+  padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
   box-sizing: border-box;
 }
 
-.btn {
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+.file-group {
+  display: flex;
+  flex-direction: column;
 }
 
-.btn:hover {
-  background-color: #0056b3;
+.buttonaddevents {
+ 
+  border: none;
+  color: white;
+  padding: 10px 20px; /* Adjust padding to reduce button size */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1px; /* Adjust font size to reduce button text size */
+  margin: 25px 108px;
+  cursor: pointer;
+  max-width: 80px; /* Set maximum width for the button */
+  max-height: 40px;
+  background-image: linear-gradient(to top, #ff3e00, #ffbe30); /* Add inner gradient */
+}
+
+
+.buttonaddevents:hover {
+  background-color: #45a049;
 }
 
 .error-message {
   color: red;
 }
 
-.ff{
-  padding-right: 250px;
+.ff {
+  padding-right: 650px; /* Adjust as needed */
 }

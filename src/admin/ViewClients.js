@@ -49,10 +49,10 @@ export default function ViewClients() {
   };
 
   return (
-    <div align="center" style={{ paddingTop: '20px', color: 'black' }}>
-      <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '20px', color:"black" }}>
+    <div style={{ paddingTop: '20px', color: 'black' }}>
+      <div className="bar" style={{ display: 'flex', justifyContent: 'center', marginBottom: '20px', color:"black" , paddingLeft:"550px", paddingRight:"550px" }}>
         <input
-          style={{ color: 'black', marginRight: '10px'  }}
+          style={{ color: 'black' }}
           type="text"
           id="myInput"
           onKeyUp={handleSearch}

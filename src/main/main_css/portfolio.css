@@ -65,7 +65,7 @@
     }
     
     .portfolio-image-container button:hover {
-        background: linear-gradient(35deg, #ff3e00, #ffbe30);
+        background: linear-gradient(35deg, #ff3e00, #ff3e00);
         background-position: 0 0;
         transition: 0.5s;
     }

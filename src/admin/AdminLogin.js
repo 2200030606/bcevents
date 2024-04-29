@@ -65,7 +65,7 @@ export default function AdminLogin({onAdminLogin})
         message ? <h4 align="center">{message}</h4> : <h4 align="center">{error}</h4>
       }
           <h3 style={{color:"white"}}>ADMIN LOGIN</h3>
-          <input type="text" id='username' className="email-input" placeholder="Username"   value={formData.username} onChange={handleChange} required/> <br/>
+          <input type="text" id='username' placeholder="Username"   value={formData.username} onChange={handleChange} required/> <br/>
           <input type="password" id='password'  className="email-input" placeholder="Password" value={formData.password} onChange={handleChange} required/> <br/>
           <button type="submit" className="button">Login</button>
         </form>

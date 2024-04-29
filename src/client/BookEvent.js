@@ -28,8 +28,8 @@ export default function BookEvent() {
             </div>
             <div className="image-name" style={{color:"white"}}>Wedding</div>
           </div>
-          <div className="button-container">
-            <button className="CustomButton" onClick={() => showEvent("Wedding")}>View</button>
+          <div className="button-container"style={{paddingLeft:"120px",paddingTop:"20px"}}>
+            <button className="CustomButton button-85" onClick={() => showEvent("Wedding")}style={{color:"black"}}>View</button>
           </div>
         </div>
 
@@ -40,8 +40,8 @@ export default function BookEvent() {
             </div>
             <div className="image-name" style={{color:"white"}}>Birthday Parties</div>
           </div>
-          <div className="button-container">
-            <button className="CustomButton" onClick={() => showEvent("Birthday")}>View</button>
+          <div className="button-container"style={{paddingLeft:"120px",paddingTop:"20px"}}>
+            <button className="CustomButton button-85" onClick={() => showEvent("Birthday")}style={{color:"black"}}>View</button>
           </div>
         </div>
 
@@ -52,8 +52,8 @@ export default function BookEvent() {
             </div>
             <div className="image-name" style={{color:"white"}}>Racing</div>
           </div>
-          <div className="button-container">
-            <button className="CustomButton" onClick={() => showEvent("Racing")}>View</button>
+          <div className="button-container"style={{paddingLeft:"120px",paddingTop:"20px"}}>
+            <button className="CustomButton button-85" onClick={() => showEvent("Racing")}style={{color:"black"}}>View</button>
           </div>
         </div>
       </div>
@@ -66,8 +66,8 @@ export default function BookEvent() {
             </div>
             <div className="image-name" style={{color:"white"}}>Summit</div>
           </div>
-          <div className="button-container">
-            <button className="CustomButton" onClick={() => showEvent("Summit")}>View</button>
+          <div className="button-container"style={{paddingLeft:"120px",paddingTop:"20px"}}>
+            <button className="CustomButton button-85" onClick={() => showEvent("Summit")}style={{color:"black"}}>View</button>
           </div>
         </div>
 
@@ -78,8 +78,8 @@ export default function BookEvent() {
             </div>
             <div className="image-name"style={{color:"white"}}>Tech</div>
           </div>
-          <div className="button-container">
-            <button className="CustomButton" onClick={() => showEvent("Technical")}>View</button>
+          <div className="button-container"style={{paddingLeft:"120px",paddingTop:"20px"}}>
+            <button className="CustomButton button-85" onClick={() => showEvent("Technical")}style={{color:"black"}}>View</button>
           </div>
         </div>
 
@@ -90,8 +90,8 @@ export default function BookEvent() {
             </div>
             <div className="image-name" style={{color:"white"}}>Social</div>
           </div>
-          <div className="button-container">
-            <button className="CustomButton" onClick={() => showEvent("Social")}>View</button>
+          <div className="button-container" style={{paddingLeft:"120px",paddingTop:"20px"}}>
+            <button className="CustomButton button-85" onClick={() => showEvent("Social")} style={{color:"black"}}>View</button>
           </div>
         </div>
       </div>

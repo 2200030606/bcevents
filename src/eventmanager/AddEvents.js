@@ -93,7 +93,7 @@ export default function AddEvents() {
     <h3 align="center"><u>Add Event</u></h3>
     </div>
     <div className='ff'> 
-      {message ? <h4 align="center" style={{color:"white"}}>{message}</h4> : null}
+      {message ? <h4 align="center" style={{color:"white",paddingLeft:"650px"}}>{message}</h4> : null}
       {error ? <h4 align="center" className="error-message" >{error}</h4> : null}
       <form onSubmit={handleSubmit} encType="multipart/form-data" className="event-form"> {/* Added a form class */}
         <div className="form-group">
@@ -130,9 +130,9 @@ export default function AddEvents() {
         </div>
         <div className="form-group">
           <label  style={{color:"white"}}>Image</label>
-          <input type="file" id="file" ref={fileInputRef} onChange={handleFileChange} className="form-control" required />
+          <input  style={{color:"white"}} type="file" id="file" ref={fileInputRef} onChange={handleFileChange} className="form-control" required />
         </div>
-        <button type="submit" className="btn btn-primary">Add</button> {/* Added button classes */}
+        <p className="buttonaddevents"><button type="submit" style={{fontSize:"25px"}}>Add</button></p> 
       </form>
     </div>
     </div>

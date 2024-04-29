@@ -10,8 +10,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import InputBase from '@mui/material/InputBase';
 import Paper from '@mui/material/Paper';
 import { styled } from '@mui/system';
-import config from '../config'
-
+import config from '../config';
 
 const SearchContainer = styled(Paper)(({ theme }) => ({
   padding: '2px 4px',
@@ -38,20 +37,18 @@ const StyledSelect = styled('select')({
   cursor: 'pointer',
 });
 
-
 export default function ViewAllEvents(props) {
   const location = useLocation();
   const category = location.state.category;
   const [eventDetails, setEventDetails] = useState([]);
   const [searchInput, setSearchInput] = useState('');
   const [sortBy, setSortBy] = useState('');
-
+  const [wishlist, setWishlist] = useState([]);
 
   const navigate = useNavigate();
   const handleEvent = (eventid) => {
     navigate(`/event`, { state: { eventid } });
   };
-
 
   useEffect(() => {
     const fetchEvents = async () => {
@@ -72,6 +69,10 @@ export default function ViewAllEvents(props) {
 
   const handleSortChange = (event) => {
     setSortBy(event.target.value);
+  };
+
+  const addToWishlist = (eventid) => {
+    setWishlist([...wishlist, eventid]);
   };
 
   const compareCost = (a, b) => {
@@ -123,6 +124,12 @@ export default function ViewAllEvents(props) {
               alt={event.title}
               loading="lazy"
             />
+            <IconButton
+              onClick={() => addToWishlist(event.eventid)}
+              style={{ position: 'absolute', top: '8px', right: '8px', color: wishlist.includes(event.eventid) ? 'yellow' : 'white' }}
+            >
+              ★
+            </IconButton>
             <ImageListItemBar
               title={`Company: ${event.brandname}`}
               subtitle={`Cost: ${event.cost}`}

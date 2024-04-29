@@ -1,7 +1,6 @@
 import React, { useState,useEffect } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import './admin_css/admin.css'
 import config from '../config'
 
 export default function ChangeAdminPwd() {
@@ -56,23 +55,26 @@ export default function ChangeAdminPwd() {
 
   return (
     <div>
-      <h3 align="center"><u>Change Password</u></h3>
+    <h3 align="center"><u>Change Password</u></h3>
+    <div style={{paddingRight:"230px"}}>
+      
       {
         message ? <h4 align="center">{message}</h4> : <h4 align="center" style={{color:"red"}}>{error}</h4>
       }
       <form onSubmit={handleSubmit} align="center">
          <div>
           <label style={{color:"white"}}>Old Password</label><br/>
-          <input  type="password" className="email-input" id="oldpassword" value={formData.oldpassword} onChange={handleChange} required />
+          <input  type="password"  id="oldpassword" value={formData.oldpassword} onChange={handleChange} required />
         </div>
         <br/>
 
         <div>
           <label style={{color:"white"}}>New Password</label><br/>
-          <input type="password" className="email-input" id="newpassword" value={formData.newpassword} onChange={handleChange} required />
+          <input type="password" id="newpassword" value={formData.newpassword} onChange={handleChange} required />
         </div><br/>
         <input type="submit" value="Change" className="button"/>
       </form>
+    </div>
     </div>
   );
 }

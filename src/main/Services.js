@@ -1,3 +1,5 @@
+// Services.js
+
 import React from 'react';
 import img1 from './main_images/simg1.jpg';
 import img2 from './main_images/simg2.jpg';
@@ -6,7 +8,6 @@ import img4 from './main_images/simg4.jpg';
 import img5 from './main_images/simg5.jpeg';
 import img6 from './main_images/simg6.jpeg';
 import './main_css/services.css';
-
 
 export default function Services() {
   return (
@@ -55,7 +56,7 @@ export default function Services() {
         <div className="image-container">
           <div className="image-wrapper">
             <img src={img6} alt='Social' />
-            <div className="image-name" align="center">Governament Events</div>
+            <div className="image-name" align="center">Government Events</div>
           </div>
           <div className="overlay">We specialize in government events, ensuring impactful, secure, and seamless gatherings tailored to official needs.</div>
         </div>
