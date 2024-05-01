@@ -63,7 +63,7 @@ export default function Signup() {
   
       </form>
       <div>
-        <h3 style={{ paddingTop: "120px", paddingLeft: "525.9px" }}>
+        <h3 style={{ paddingTop: "120px", paddingLeft: "425.9px" }}>
           <img src={img3} alt='Summit' style={{ width: '320px', height: '542px' }} />
         </h3>
       </div>

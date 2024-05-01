@@ -6,7 +6,6 @@ import img4 from './main_images/cimg4.png'
 import img5 from './main_images/cimg5.png'
 import img6 from './main_images/cimg6.png'
 import './main_css/contact.css'
-import { Link } from 'react-router-dom';
 
 
 
@@ -49,9 +48,6 @@ export default function Contact() {
          Punjagutta, Hyderabad, Telangana
           – 500082</h4>
         </div>
-        <div className='card1' style={{ color: "white" }}>
-      <h2 style={{ color: "white", textSizeAdjust: "12px", fontFamily: "Times New Roman",paddingLeft:"20px" }}>Links</h2>
-    </div>
 
         <div className='card1'>
     <h2 style={{color:"white",textSizeAdjust:"4px",fontFamily:"Times new Roman"}}>Contact Us</h2>
