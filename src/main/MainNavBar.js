@@ -72,6 +72,9 @@ export default function MainNavBar() {
           <li>
             <Link to="/login">Login</Link>
           </li>
+          <li>
+            <Link to="/adminlogin">adminlogin</Link>
+          </li>
         </ul>
       </div>
       <div ref={home} className='home'>
@@ -86,7 +89,6 @@ export default function MainNavBar() {
       <div ref={contact} className='Contact'>
         <Contact />
       </div>
-
       
     </div>
   );
