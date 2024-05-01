@@ -119,7 +119,7 @@ export default function ViewAllEvents(props) {
         {filteredEvents.map((event) => (
           <ImageListItem key={event.eventid} sx={{ borderBottom: '1px solid black' }}>
             <img
-              src={`${config.url}/clientevents/clienteventimage/${event.file}`}
+               src={`${config.url}/clientevents/clienteventimage/${event.file}`}
               style={{ width: '100%', height: '190%', objectFit: 'cover' }}
               alt={event.title}
               loading="lazy"
