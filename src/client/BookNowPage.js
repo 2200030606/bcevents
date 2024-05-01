@@ -59,6 +59,7 @@ export default function BookNowPage()
       {
         message ? <h4 align="center" style={{color:"white"}}>{message}</h4> : <h4 align="center" style={{color:"red"}}>{error}</h4>
       }
+      <div style={{paddingRight:"260px"}}>
       <form onSubmit={handleSubmit}>
         <div>
           <label style={{color:"white"}}>Full Name</label>
@@ -80,8 +81,10 @@ export default function BookNowPage()
           <label  style={{color:"white"}}>Contact</label>
           <input type="number" id="contact" value={formData.contact} onChange={handleChange} required />
         </div>
-        <button type="submit">Submit</button>
+        <button type="submit" style={{paddingLeft:"190px",paddingTop:"40px"}}>Submit</button>
       </form>
+      </div>
     </div>
+
   );
 }

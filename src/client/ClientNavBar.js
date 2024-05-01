@@ -30,6 +30,7 @@ export default function ClientNavBar() {
   return (
     <div>
          <ul className='navbar'>
+          <li><Link to="/clienthome">Home</Link></li>
         <li><Link  to="/clientprofile">Profile</Link></li>
       <li><Link  to="/bookevent">BookEvent</Link></li>
       <li><button className="logoutButton" onClick={handleLogout}>Logout</button></li>

@@ -46,7 +46,7 @@ export default function UpdateClientProfile() {
         const res = await axios.get(`${config.url}/clientprofile/${clientData.email}`, updatedData)
         localStorage.setItem("client",JSON.stringify(res.data))
       } else {
-        setMessage("No Changes in Job Seeker Profile");
+        setMessage("No Changes in client Profile");
         setError("");
       }
     } 

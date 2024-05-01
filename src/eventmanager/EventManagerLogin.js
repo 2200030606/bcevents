@@ -77,7 +77,7 @@ export default function Login({onManagerLogin}) {
     
         </form>
         <div>
-      <h3 style={{paddingTop:"95px",paddingLeft:"409px", position:"fixed"}}>
+      <h3 style={{paddingTop:"95px",paddingLeft:"309px", position:"fixed"}}>
         <img src={img3} alt='Summit' style={{ width: '320px', height: '542px'}} />
       </h3>
     </div>
