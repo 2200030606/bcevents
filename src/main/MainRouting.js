@@ -25,7 +25,6 @@ export default function MainRouting({ onClientLogin, onAdminLogin, onManagerLogi
         <Route path="/portfolio/marriagealbum" element={<MarriageAlbum />} />
         <Route path="/portfolio/racingevents" element={<RacingEvents />} />
         <Route path="/portfolio/birthdayalbum" element={<BirthdayAlbum />} />
-        <Route path="/adminlogin" element={<AdminLogin/>}exact/>
         <Route path="*" element={<PageNotFound />} exact />
       </Routes>
     </div>
