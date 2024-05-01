@@ -33,7 +33,7 @@ export default function EventManagerSignup() {
     e.preventDefault();
     try 
     {
-      const response = await axios.post(`${config.url}/insertmanager, formData`);
+      const response = await axios.post(`${config.url}/insertmanager`, formData);
       if (response.status === 200) 
       {
         setFormData({
