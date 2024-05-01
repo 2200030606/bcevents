@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import '../main/main_css/signup.css';
 import profile from './main_images/bg.jpg';
 import axios from 'axios';
+import config from '../config'
 import img3 from './main_images/sideimg1.jpg';
 
 
@@ -24,7 +25,7 @@ export default function Signup() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:1011/insertclient', formData);
+      const response = await axios.post(`${config.url}/insertclient`, formData);
       if (response.status === 200) {
         setFormData({
           fullname: '',

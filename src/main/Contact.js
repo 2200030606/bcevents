@@ -51,14 +51,6 @@ export default function Contact() {
         </div>
         <div className='card1' style={{ color: "white" }}>
       <h2 style={{ color: "white", textSizeAdjust: "12px", fontFamily: "Times New Roman",paddingLeft:"20px" }}>Links</h2>
-      <ul style={{ color: "white" }}>
-        <li><Link to="/" style={{ color: "white" }}>Home</Link></li>
-        <li><Link to="/services" style={{ color: "white" }}>Services</Link></li>
-        <li><Link to="/portfolio" style={{ color: "white" }}>Portfolio</Link></li>
-        <li><Link to="/contact" style={{ color: "white" }}>Contact</Link></li>
-        <li><Link to="/bookevent" style={{ color: "white" }}>Book Event</Link></li>
-        <li><Link to="/login" style={{ color: "white" }}>Login</Link></li>
-      </ul>
     </div>
 
         <div className='card1'>

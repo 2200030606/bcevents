@@ -4,6 +4,7 @@ import './main_css/login.css';
 import profile from './main_images/bg.jpg';
 import img3 from '../main/main_images/sideimg1.jpg';
 import axios from 'axios';
+import config from '../config'
 
 
 export default function Login({ onClientLogin }) {
@@ -19,7 +20,7 @@ export default function Login({ onClientLogin }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:1011/checkclientlogin', formData);
+      const response = await axios.post(`${config.url}/checkclientlogin`, formData);
       if (response.data !== null) {
         console.log(response.data);
         onClientLogin();
