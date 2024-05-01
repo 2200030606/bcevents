@@ -55,8 +55,8 @@ export default function Signup() {
         <h3 style={{ color: "white" }}>CLIENT SIGNUP</h3>
         <input style={{ color: "white" }} type="text" id="fullname" className="email-input" placeholder="FullName" value={formData.fullname} onChange={handleChange} required /> <br />
         <input style={{ color: "white" }} type="email" id="email" className="email-input" placeholder="Email" value={formData.email} onChange={handleChange} required /> <br />
-        <input style={{ color: "white" }} type="password" id="password" className="email-input" placeholder="Password" value={formData.password} onChange={handleChange} required /> <br />
         <input style={{ color: "white" }} type="text" id="contact" className="email-input" placeholder="Contact No" value={formData.contact} onChange={handleChange} pattern="[6789][0-9]{9}" required /> <br />
+        <input style={{ color: "white" }} type="password" id="password" className="email-input" placeholder="Password" value={formData.password} onChange={handleChange} required /> <br />
         <button type="submit">Submit</button><br/>
         <p style={{ color: 'white', paddingRight:"10px" }}>Already have an account? </p>
         <button><Link to='/login' style={{ color: 'black' }}>Client Login</Link></button>

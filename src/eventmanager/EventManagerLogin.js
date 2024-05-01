@@ -65,7 +65,7 @@ export default function Login({onManagerLogin}) {
         <form onSubmit={handleSubmit}>
           <h3 style={{color:"white"}}>Event Manager login</h3>
           {
-        message ? <h4 align="center">{message}</h4> : <h4 align="center">{error}</h4>
+        message ? <h4 align="center" style={{color:"white"}}>{message}</h4> : <h4 align="center">{error}</h4>
       }
           <input type="email" id="email"    className="email-input"      placeholder="Email" value={formData.email} onChange={handleChange} required/> <br/>
           <input type="password" id="password"   className="email-input"  placeholder="Password" value={formData.password} onChange={handleChange} required/> <br/>
