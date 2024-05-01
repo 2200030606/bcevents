@@ -8,7 +8,6 @@ import ViewAllEvents from './ViewAllEvents';
 import EventInformation from './EventInformation';
 import UpdateClientProfile from './UpdateClientProfile';
 import BookNowPage from './BookNowPage';
-import WishList from './WishList'
 
 
 export default function ClientNavBar() {
